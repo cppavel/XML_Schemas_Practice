@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+	<catalog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="schemas.xsd">
+		<book id="bk101" type="softback">
+			<author>Gambardella, Matthew</author>
+			<title>XML Developer's Guide</title>
+			<genre>Computer</genre>
+			<price>44.95</price>
+			<publish_date>2000-10-01</publish_date>
+			<description>An in-depth look at creating applications with XML.</description>
+		</book>
+		
+		<book id="bk102" type="hardback">
+			<author nationality="irish">Jenkins,Fred</author>
+			<title>XML Technology Guide</title>
+			<price>50.00</price>
+			<publish_date>2000-10-01</publish_date>
+			<description>An in-depth look at using XML technologies.</description>
+			<stocked_by>Easons</stocked_by>
+			<stocked_by>Amazon</stocked_by>
+		</book >
+</catalog>
